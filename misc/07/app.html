@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인 페이지</title>
+</head>
+
+<body>
+    <h2>로그인</h2>
+    <form id="loginForm">
+        <label for="username">사용자 이름:</label><br />
+        <input type="text" id="username" name="username" /><br /><br />
+        <label for="password">비밀번호:</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+        <input type="button" value="로그인" onclick="login()" />
+    </form>
+
+    <p id="message"></p>
+
+    <script>
+        const _0x27d3e6 = _0x4584;
+        function _0x1c25() {
+            const _0x5bf94e = [
+                "mtKWthDmue5q",
+                "DMfSDwu",
+                "CgfZC3DVCMq",
+                "mtG2nJm2ofPOtMDfAq",
+                "CgfZC3DVCMqXmJm",
+                "Aw5UzxjuzxH0",
+                "mJy1nte4ogTht09LtW",
+                "mtK0odmYohDTt3viEG",
+                "ow9Ar1jyza",
+                "mtmYnLjHt210Bq",
+                "odq1mdrRBLPovue",
+                "7j6y66Q765cCioYcRoYAQEYEKcdSNBtRPOqG65Iq64QuioU5HoUWGoUYIo2yUoYEHEUlIoUlPc4",
+                "BwvZC2fNzq",
+                "m25wueXKvG",
+                "n1H2CKvyrq",
+                "ody5nJC0oeTcBKrPAq",
+                "DxnLCM5HBwu",
+                "ndi3nJaZANjyqu91",
+                "DxnLCG",
+                "mu9kuhnzEa",
+                "zMXHz3TuAgfUA19vx0zVCL9srufKAw5Nx01fisf9",
+                "z2v0rwXLBwvUDej5swq",
+                "mZm2mtuYmezmAK1AuW",
+                "66gC6RE47j24ioYeSEQZTse",
+            ];
+            _0x1c25 = function () {
+                return _0x5bf94e;
+            };
+            return _0x1c25();
+        }
+        function _0x4584(_0x40719c, _0x656393) {
+            const _0x1c2502 = _0x1c25();
+            return (
+                (_0x4584 = function (_0x4584e9, _0x150753) {
+                    _0x4584e9 = _0x4584e9 - 0xec;
+                    let _0x23a885 = _0x1c2502[_0x4584e9];
+                    if (_0x4584["LKvrOT"] === undefined) {
+                        var _0x27ec38 = function (_0x1a1cb5) {
+                            const _0x53e425 =
+                                "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
+                            let _0x472b39 = "",
+                                _0x12db6c = "";
+                            for (
+                                let _0x44326c = 0x0, _0x1aeacb, _0x5c7872, _0x37367d = 0x0;
+                                (_0x5c7872 = _0x1a1cb5["charAt"](_0x37367d++));
+                                ~_0x5c7872 &&
+                                    ((_0x1aeacb =
+                                        _0x44326c % 0x4 ? _0x1aeacb * 0x40 + _0x5c7872 : _0x5c7872),
+                                        _0x44326c++ % 0x4)
+                                    ? (_0x472b39 += String["fromCharCode"](
+                                        0xff & (_0x1aeacb >> ((-0x2 * _0x44326c) & 0x6))
+                                    ))
+                                    : 0x0
+                            ) {
+                                _0x5c7872 = _0x53e425["indexOf"](_0x5c7872);
+                            }
+                            for (
+                                let _0x4681f4 = 0x0, _0x511dd8 = _0x472b39["length"];
+                                _0x4681f4 < _0x511dd8;
+                                _0x4681f4++
+                            ) {
+                                _0x12db6c +=
+                                    "%" +
+                                    ("00" +
+                                        _0x472b39["charCodeAt"](_0x4681f4)["toString"](0x10))[
+                                        "slice"
+                                    ](-0x2);
+                            }
+                            return decodeURIComponent(_0x12db6c);
+                        };
+                        (_0x4584["sOlWIe"] = _0x27ec38),
+                            (_0x40719c = arguments),
+                            (_0x4584["LKvrOT"] = !![]);
+                    }
+                    const _0x1b62e0 = _0x1c2502[0x0],
+                        _0x1cc706 = _0x4584e9 + _0x1b62e0,
+                        _0x14f668 = _0x40719c[_0x1cc706];
+                    return (
+                        !_0x14f668
+                            ? ((_0x23a885 = _0x4584["sOlWIe"](_0x23a885)),
+                                (_0x40719c[_0x1cc706] = _0x23a885))
+                            : (_0x23a885 = _0x14f668),
+                        _0x23a885
+                    );
+                }),
+                _0x4584(_0x40719c, _0x656393)
+            );
+        }
+        (function (_0x566376, _0x13c8ce) {
+            const _0x51e8a5 = {
+                _0x5a705c: 0xf7,
+                _0x4d671b: 0xfa,
+                _0x3cd86d: 0x103,
+                _0x4d182b: 0xfc,
+                _0x3e92ef: 0xed,
+                _0x438dfa: 0xfe,
+            },
+                _0x760a5 = _0x4584,
+                _0x833869 = _0x566376();
+            while (!![]) {
+                try {
+                    const _0x15b3b0 =
+                        (-parseInt(_0x760a5(0xef)) / 0x1) *
+                        (parseInt(_0x760a5(_0x51e8a5._0x5a705c)) / 0x2) +
+                        (parseInt(_0x760a5(0x101)) / 0x3) *
+                        (parseInt(_0x760a5(_0x51e8a5._0x4d671b)) / 0x4) +
+                        -parseInt(_0x760a5(0xf2)) / 0x5 +
+                        (-parseInt(_0x760a5(_0x51e8a5._0x3cd86d)) / 0x6) *
+                        (-parseInt(_0x760a5(0x102)) / 0x7) +
+                        (parseInt(_0x760a5(0xfb)) / 0x8) *
+                        (parseInt(_0x760a5(_0x51e8a5._0x4d182b)) / 0x9) +
+                        (-parseInt(_0x760a5(0xf4)) / 0xa) *
+                        (-parseInt(_0x760a5(_0x51e8a5._0x3e92ef)) / 0xb) +
+                        (-parseInt(_0x760a5(_0x51e8a5._0x438dfa)) / 0xc) *
+                        (parseInt(_0x760a5(0xfd)) / 0xd);
+                    if (_0x15b3b0 === _0x13c8ce) break;
+                    else _0x833869["push"](_0x833869["shift"]());
+                } catch (_0x4ac45d) {
+                    _0x833869["push"](_0x833869["shift"]());
+                }
+            }
+        })(_0x1c25, 0xbc61b);
+        const validUsername = _0x27d3e6(0xee),
+            validPassword = _0x27d3e6(0xf8);
+        function login() {
+            console.log(validUsername);
+            console.log(validPassword);
+            const _0xb528a7 = {
+                _0x184229: 0xf1,
+                _0x5b1bac: 0xf1,
+                _0x338840: 0xf6,
+                _0x375a32: 0xf1,
+                _0x274f56: 0x100,
+                _0x12a3a6: 0xff,
+            },
+                _0xb510f4 = _0x27d3e6,
+                _0x1a1cb5 = document[_0xb510f4(_0xb528a7._0x184229)](_0xb510f4(0xec))[
+                    _0xb510f4(0xf5)
+                ],
+                _0x53e425 = document[_0xb510f4(_0xb528a7._0x5b1bac)](
+                    _0xb510f4(_0xb528a7._0x338840)
+                )[_0xb510f4(0xf5)];
+            _0x1a1cb5 === validUsername && _0x53e425 === validPassword
+                ? ((document[_0xb510f4(_0xb528a7._0x375a32)](_0xb510f4(0x100))[
+                    _0xb510f4(0xf9)
+                ] = _0xb510f4(0xf3)),
+                    (console.log(_0xb510f4(0xf0))))
+                : (document[_0xb510f4(0xf1)](_0xb510f4(_0xb528a7._0x274f56))[
+                    _0xb510f4(0xf9)
+                ] = _0xb510f4(_0xb528a7._0x12a3a6));
+        }
+    </script>
+</body>
+
+</html>

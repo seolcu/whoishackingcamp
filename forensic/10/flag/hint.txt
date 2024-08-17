@@ -1,0 +1,4 @@
+len(password) #NA==
+print(password.isalpha()) #VHJ1ZQ==
+
+do you know base64?
