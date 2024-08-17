@@ -1,4 +1,4 @@
-# Forensic 07 - SOS
+# Forensic 07 - SOS - 설규원
 
 ![alt text](image.png)
 

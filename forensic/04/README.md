@@ -1,4 +1,4 @@
-# Forensic 4 - EEEASY
+# Forensic 4 - EEEASY - 설규원
 
 ![alt text](image.png)
 

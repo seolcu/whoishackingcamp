@@ -1,4 +1,4 @@
-# Web 03 - Login
+# Web 03 - Login - 설규원
 
 ![alt text](image.png)
 

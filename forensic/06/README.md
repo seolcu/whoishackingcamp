@@ -1,4 +1,4 @@
-# Forensic 06 - Snowman
+# Forensic 06 - Snowman - 설규원
 
 ![alt text](image.png)
 

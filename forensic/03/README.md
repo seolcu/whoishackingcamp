@@ -1,4 +1,4 @@
-# Forensic 3 - Stegano
+# Forensic 3 - Stegano - 설규원
 
 ![alt text](image-1.png)
 

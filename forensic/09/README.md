@@ -1,4 +1,4 @@
-# Forensic 09 - Blue Moon
+# Forensic 09 - Blue Moon - 설규원
 
 ![alt text](image.png)
 

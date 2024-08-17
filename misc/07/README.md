@@ -1,4 +1,4 @@
-# Misc 07 - Can't Read
+# Misc 07 - Can't Read - 설규원
 
 ![alt text](image.png)
 
