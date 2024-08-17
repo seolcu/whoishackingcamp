@@ -1,5 +1,7 @@
 # Forensic 06 - Snowman - 설규원
 
+팀 이름: 넌root일때가젤멋져
+
 ![alt text](image.png)
 
 해당 txt는 그냥 보았을 때는 아무런 문제가 없어보인다. 그러나 문제의 내용을 보면, `하얀 공간`을 언급하고 있다. 이것이 whitespace를 의미하는 것이라고 생각하고, vscode로 선택해보았다.

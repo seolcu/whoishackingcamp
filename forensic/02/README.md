@@ -1,5 +1,7 @@
 # Forensic 2 - Modified file - 설규원
 
+팀 이름: 넌root일때가젤멋져
+
 ![alt text](image.png)
 
 이미지가 손상되어 보여서 복구하기 위해 Hex editor인 Okteta로 열어보았다.

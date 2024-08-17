@@ -1,5 +1,7 @@
 # Misc 07 - Can't Read - 설규원
 
+팀 이름: 넌root일때가젤멋져
+
 ![alt text](image.png)
 
 제공된 html 파일은 위와 같이 로그인 창이 있다.

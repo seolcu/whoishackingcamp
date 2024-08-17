@@ -1,4 +1,6 @@
-# OSINT 08 - SUM
+# OSINT 08 - SUM - 설규원
+
+팀 이름: 넌root일때가젤멋져
 
 ![alt text](./Screenshot_20240818_040250_Calculator.jpg)
 

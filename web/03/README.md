@@ -1,5 +1,7 @@
 # Web 03 - Login - 설규원
 
+팀 이름: 넌root일때가젤멋져
+
 ![alt text](image.png)
 
 로그인 페이지이다. admin으로 로그인하면 되는 문제인 것 같다.

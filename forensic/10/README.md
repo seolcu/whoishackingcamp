@@ -1,5 +1,7 @@
 # Forensic 10 - Solve me - 설규원
 
+팀 이름: 넌root일때가젤멋져
+
 ![alt text](image.png)
 
 flag.txt만 암호화된 zip 파일이다.

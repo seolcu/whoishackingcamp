@@ -1,5 +1,7 @@
 # Forensic 09 - Blue Moon - 설규원
 
+팀 이름: 넌root일때가젤멋져
+
 ![alt text](image.png)
 
 기계음이 섞여있는듯한 mp3 파일이다.

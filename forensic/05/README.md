@@ -1,5 +1,7 @@
 # Forensic 05 - Find - 설규원
 
+팀 이름: 넌root일때가젤멋져
+
 ![alt text](image.png)
 
 우선 사진은 평범해 보였다. 숨겨진 정보가 없을까 싶어 [온라인 스테가노그래피 툴](https://stylesuxx.github.io/steganography/)을 사용해 보았다.
